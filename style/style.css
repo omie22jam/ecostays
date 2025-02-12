@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: nunito;
-    src: url('../fonts/nunito-regular.ttf');
+    src: url('../fonts/nunitosans-light.ttf');
 }
 
 .index {
@@ -145,7 +145,7 @@ section {
 
 p {
     font-size: small;
-    font-family: nunito, san sarif;
+    font-family: nunito, san-serif;
 }
 
 h2 {
