@@ -1,0 +1,185 @@
+@font-face {
+    font-family: noteworthy;
+    src: url('../fonts/noteworthy-lt.ttf');
+}
+
+@font-face {
+    font-family: nunito;
+    src: url('../fonts/nunito-regular.ttf');
+}
+
+.index {
+    background-image: url('../images/indexachtergrond.png');
+}
+
+.achtergrondtips {
+    background-image: url('../images/tipsachtergrond.png');
+
+}
+
+.jakartaachtergrond {
+    background-image: url('../images/jakartaachtergrond.png');
+}
+
+
+/* h1 */
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+#logo {
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 5.5em;
+    width: 50%;
+    transform: none;
+    transition: none;
+}
+
+nav ul {
+    list-style: none;
+    background-color: rgb(255, 193, 75);
+    justify-content: space-evenly;
+    border: solid;
+    margin-top: 4%;
+    flex-direction: row;
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+    padding-inline: 1.2em;
+    color: black;
+    font-size: larger;
+    flex-direction: row;
+}
+
+
+
+.vlakeen,
+.vlaktwee {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    gap: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.vlaktwee {
+    margin-top: 45%;
+}
+
+
+h2 {
+    background-color: rgb(255, 193, 75);
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 70%;
+    border: solid;
+    transform: rotate(7deg);
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: rotate(0)
+}
+
+article,
+section {
+    border: solid;
+    background-color: rgb(255, 193, 75);
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+section {
+    margin-bottom: 2.5em;
+    margin-top: 1em;
+}
+
+#ervaring {
+    border: solid;
+    margin-inline: 25%;
+    padding-bottom: 1%;
+}
+
+#tips {
+    border: solid;
+    margin-inline: 22%;
+    padding-bottom: 1%;
+
+}
+
+#duurzaamheid,
+#regenwater {
+    background-color: rgb(255, 193, 75);
+    border: solid;
+    margin-top: 1em;
+
+}
+
+#duurzaamheid {
+    margin-bottom: 50%;
+}
+
+#regenwater {
+    margin-top: 20%;
+}
+
+p {
+    font-size: small;
+    font-family: nunito, san sarif;
+}
+
+h2 {
+    font-size: large;
+    font-family: noteworthy, san-serif;
+
+}
+
+h3 {
+    font-size: medium;
+    font-family: noteworthy, san-serif;
+}
+
+.fotos {
+    overflow-x: auto;
+    display: flex;
+    gap: 5%;
+    transition: none;
+    transform: none;
+}
+
+#tuin {
+    width: 10%;
+}
+
+#swipefotos img {
+    width: 54%;
+    transform: none;
+    transition: none;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
