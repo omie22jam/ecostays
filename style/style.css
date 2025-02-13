@@ -1,11 +1,11 @@
 @font-face {
     font-family: noteworthy;
-    src: url('../fonts/noteworthy-lt.ttf');
+    src: url('../fonts/noteworthy.ttf');
 }
 
 @font-face {
     font-family: nunito;
-    src: url('../fonts/nunitosans-light.ttf');
+    src: url('../fonts/nunitosans.light.ttf');
 }
 
 .index {
